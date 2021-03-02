@@ -1,5 +1,6 @@
 package march2_arrays;
 
+//used to initialize array throughout assignment
 public class PalindromeNumbers {
 
 	public static void main(String[] args) {
