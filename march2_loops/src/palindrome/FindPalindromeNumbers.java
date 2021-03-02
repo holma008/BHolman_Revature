@@ -6,7 +6,7 @@ public class FindPalindromeNumbers {
     	 for(int i = 100; i <= 999; i++) {
  			if(isPalendrome(i)) {
 				System.out.print(i + " ");
-			};
+			}
     	 }
      }
      
