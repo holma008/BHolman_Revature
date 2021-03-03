@@ -15,6 +15,9 @@ public class PrimeNumbers {
 	
 	public static boolean isPrime(int n) {
 		int c = 0;
+		if(n == 1) {
+			return true;
+		}
 		for(int i = 1; i <= n; i++) {
 			if(n % i == 0) {
 				c++;
