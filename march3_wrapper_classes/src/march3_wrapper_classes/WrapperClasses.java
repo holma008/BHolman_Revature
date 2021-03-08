@@ -31,11 +31,11 @@ public class WrapperClasses {
 		System.out.println(System.identityHashCode(d2));
 		System.out.println(System.identityHashCode(d3));
 		
-		Long l1 = 194l;
-		Long l2 = 194l;
+		Long l1 = 19l;
+		Long l2 = 19l;
 		Long l3 = new Long(194);
 		
-		System.out.println("l1 == l2 : " + (l1 == l2));
+		System.out.println("l1 == l2 : " + (l1 == l2));//a bigger variable causes this to fail
 		System.out.println("l1 == l3 : " + (l1 == l3));
 		
 		System.out.println("(l1.equals(l2)) : " + (l1.equals(l3)));
